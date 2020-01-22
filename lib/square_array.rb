@@ -1,6 +1,8 @@
 def square_array(array)
-  while array << 3 do each  
-    puts array ** 2
-    array += 1
-  end 
+  i=0
+    while i<array.length do
+    array[i]=array[i]**2
+    i+=1
+  end
+return array
 end
